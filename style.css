@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
     /* font-family: 'Satisfy', cursive; */
     /* background-image: url(images/donation8.jpg);
     background-repeat: no-repeat; */
@@ -8,13 +9,13 @@ body{
 /* .banner-section{
     background-image: url(images/donation8.jpg);
 } */
-body {
+section{
     background-image: url(images/donation1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    height: 50%;
+    height: 150%;
 }
 .banner-section h1{
     color: aliceblue;
@@ -30,14 +31,17 @@ body {
     text-justify: newspaper;
     text-align: center;
     color: aliceblue;
-    padding-top: 200px;
+    padding-top: 180px;
     /* line-break:loose; */
     /* line-height: 500%; */
+    padding-bottom: 240px;
 }
 .banner-section a{
     text-decoration: none;
     background-color: rgb(216, 75, 75);
     color: white;
-    padding: 10px 20px;
+    padding: 20px 40px;
     border-radius: 5px;
+    margin-bottom: 100px;
+    font-size: 120%;
 }
