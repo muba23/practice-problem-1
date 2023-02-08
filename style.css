@@ -40,24 +40,77 @@ body{
 }
 .banner-section a{
     text-decoration: none;
-    background-color: rgb(216, 75, 75);
+    background-color: rgb(247, 71, 71);
     color: white;
     padding: 20px 40px;
     border-radius: 5px;
     margin-bottom: 100px;
     font-size: 120%;
 }
+.donate-today{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 .donate-today-one{
     text-align: center;
 }
 .donate-today-one h1{
-    font-size: 200%;
+    font-size: 210%;
 }
-.donate-today .donate-today-two{
+.donate-today-two{
     display: flex;
-    /* padding-right: 5px; */
-    background-color: aqua;
+    justify-content: center;
+    color: rgb(78, 75, 75);
+    text-align: center; 
 }
 #donate-100{
-   background-color: blue;
+   background-color:rgb(243, 240, 240);
+   padding: 30px;
+   margin: 30px;
+}
+#donate-200{
+   background-color: pink;
+   border: 3px solid rgb(216, 75, 75);
+   border-radius: 5px;
+   padding: 35px;
+   color: rgb(216, 75, 75);
+}
+ #donate-500{
+    background-color:rgb(243, 240, 240);
+    padding: 30px;
+    margin: 30px;
+}
+ #donate-1000{
+    background-color:rgb(243, 240, 240);
+    padding: 30px;
+    margin: 30px;
+}
+#donate-5000{
+    background-color:rgb(243, 240, 240);
+    padding: 30px;
+    margin: 30px;
+}
+.other{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(172, 170, 170);
+    /* border-bottom: 1px solid rgb(185, 181, 181);
+    bottom: 30%; */
+}
+.other hr{
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-bottom: 60px;
+}
+.other{
+    justify-content: center;
+}
+.other a{
+    text-decoration: none;
+    background-color: rgb(247, 71, 71);
+    color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin-top: 100px;
+    font-size: 120%;
 }
