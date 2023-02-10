@@ -209,8 +209,43 @@ body{
     font-weight: 900;
     color: black;
 }
-.update-form{
-    background-color: burlywood;
-    padding: 50px;
+.updates .update-form{
+    background-color: rgb(255, 245, 200);
+    padding: 65px 50px 65px 190px;
+    /* margin: 0px 0% 20px 20%; */
+    margin-top: 0px;
+    margin-right: 370px;
+    margin-left: 370px;
+    margin-bottom: 100px;
+    justify-content: center;
     /* align-items: center; */
+}
+.update-form #form{
+    padding: 10px 35px;
+    border: 1px solid rgb(221, 218, 218);
+    background-color: rgb(221, 218, 218);
+    color: rgb(155, 152, 152);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.update-form #submit{
+    padding: 10px 40px;
+    margin-left: -10px;
+    background-color:rgb(247, 71, 71) ;
+    color: aliceblue;
+    border: 1px solid rgb(247, 71, 71);
+    border-end-end-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.footer{
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding: 20px;
+}
+.footer h2{
+    font-family: 'Satisfy', cursive;
+}
+.footer small{
+    color: aliceblue;
 }
